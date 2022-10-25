@@ -1,0 +1,52 @@
+.menu-list {
+    width: 223px;
+    height: 140px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'ProximaNova';
+    padding: 4px 16px;
+    height: 42px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    background-color: transparent;
+
+    &.separate {
+        border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
+
+    &:hover {
+        cursor: pointer;
+        background: rgba(22, 24, 35, 0.03);
+    }
+}
+
+// Header menu
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: -8px;
+}
+
+.back-btn {
+    font-size: 1.8rem;
+    padding: 0 22px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.header-title {
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: 700;
+    left: 50%;
+    transform: translateX(-50%);
+}
