@@ -40,6 +40,7 @@ function Menu({ children, items = [], onChange }) {
             delay={[0, 700]}
             placement="bottom-end"
             interactive={true}
+            hideOnClick={false}
             render={(attrs) => (
                 <div className={cx('menu-list')} tabIndex="-1" {...attrs}>
                     <PopperWrapper>
