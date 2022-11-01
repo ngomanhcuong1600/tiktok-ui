@@ -1,0 +1,53 @@
+.wrapper {
+    position: relative;
+    padding: 16px 8px 8px 8px;
+
+    &::before {
+        content: ' ';
+        position: absolute;
+        left: 8px;
+        right: 8px;
+        top: 0;
+        height: 1px;
+        background-color: rgba(22, 24, 35, 0.12);
+    }
+}
+
+.heading {
+    color: rgba(22, 24, 35, 0.75);
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-bottom: 16px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 12px;
+    margin-right: 8px;
+    padding: 3px 10px;
+    border: 1px solid rgba(22, 24, 35, 0.2);
+    border-radius: 12px;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.icon {
+    font-size: 1.6rem;
+    margin-right: 6px;
+    color: #333;
+}
+
+.name {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 1.4rem;
+    font-weight: 400;
+}

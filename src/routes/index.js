@@ -3,6 +3,7 @@ import Following from '~/pages/Following';
 import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
+import Live from '~/pages/Live';
 import { HeaderOnly } from '~/layouts';
 import routesConfig from '~/config/routes';
 
@@ -12,6 +13,7 @@ const publicRoutes = [
     { path: routesConfig.profile, component: Profile },
     { path: routesConfig.upload, component: Upload, layout: HeaderOnly },
     { path: routesConfig.search, component: Search, layout: null },
+    { path: routesConfig.live, component: Live },
 ];
 
 const privateRoutes = [];

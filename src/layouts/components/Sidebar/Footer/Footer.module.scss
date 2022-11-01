@@ -1,0 +1,33 @@
+.wrapper {
+    position: relative;
+    padding: 16px 0 0 8px;
+    line-height: 2.4rem;
+
+    &::before {
+        content: ' ';
+        position: absolute;
+        left: 8px;
+        right: 8px;
+        top: 0;
+        height: 1px;
+        background-color: rgba(22, 24, 35, 0.12);
+    }
+}
+
+.container {
+    margin-bottom: 8px;
+}
+
+.link {
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #8a8b91;
+
+    &:hover {
+        color: #333;
+        text-decoration: underline;
+    }
+}
